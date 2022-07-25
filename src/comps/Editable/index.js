@@ -5,7 +5,6 @@ const Editable = ({
   setEditing,
   children,
   onChange,
-  onSubmit,
   value,
 }) => {
   return (

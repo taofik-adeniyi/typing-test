@@ -6,7 +6,7 @@ const Nav = (props) => {
     <nav>
       <h3>Typing Speed Test Challenge</h3>
       <div>
-      {activeWordIndex === words.split(" ").length && <div>You Score: {score} / {words.split(" ").length}</div>}
+      {activeWordIndex === words?.split(" ").length && <div>You Score: {score} / {words?.split(" ").length}</div>}
       </div>
     </nav>
   );
